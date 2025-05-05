@@ -296,11 +296,11 @@ print(hashed)
 
 ### Small image
 
-![Cybersecurity](https://upload.wikimedia.org/wikipedia/commons/4/4a/Cyber_Security_Malware.png)
+![Cybersecurity](types-of-malware-image.jpg)
 
 ### Large image
 
-![Network Defense](https://www.csoonline.com/wp-content/uploads/2023/10/cybersecurity_network_security_shutterstock_1937225139-100876367-orig.jpg)
+![Network Defense](Technology_Trends.avif)
 
 ### Digital Forensics
 
