@@ -111,7 +111,7 @@ print(hashed)
 
 ### Small image
 
-![Cybersecurity](https://upload.wikimedia.org/wikipedia/commons/4/4a/Cyber_Security_Malware.png)
+![Cybersecurity](types-of-malware-image.jpg)
 
 ### Large image
 
