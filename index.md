@@ -5,10 +5,6 @@ layout: default
 
 [Link to another page](https://freightr.app/).
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 # Cybersecurity Skills Portfolio
 
 Welcome to my cybersecurity skills portfolio. Here you'll find demonstrations, code samples, and explanations of a wide range of cyber skills, from ethical hacking to secure coding and digital forensics.
