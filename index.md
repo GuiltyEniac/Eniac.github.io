@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: Eniac Portfolio
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
@@ -10,114 +10,141 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Cybersecurity Skills Portfolio
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Welcome to my cybersecurity skills portfolio. Here you'll find demonstrations, code samples, and explanations of a wide range of cyber skills, from ethical hacking to secure coding and digital forensics.
 
-## Header 2
+## Penetration Testing
 
-> This is a blockquote following a header.
+> Penetration testing (pentesting) is the practice of simulating cyberattacks to identify vulnerabilities in systems and applications.
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> "The best defense is a good offense."
 
-### Header 3
+### Example: Simple Port Scanner in Python
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```python
+import socket
+
+target = '127.0.0.1'
+for port in range(20, 1024):
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.settimeout(0.5)
+    result = s.connect_ex((target, port))
+    if result == 0:
+        print(f"Port {port} is open")
+    s.close()
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+### Example: SQL Injection Test
+
+```sql
+SELECT * FROM users WHERE username = 'admin' --' AND password = 'password';
 ```
 
-#### Header 4
+#### Common Pentesting Tools
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Nmap
+*   Metasploit
+*   Burp Suite
+*   Wireshark
 
-##### Header 5
+##### Pentesting Process
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  Reconnaissance
+2.  Scanning
+3.  Exploitation
+4.  Post-Exploitation
+5.  Reporting
 
-###### Header 6
+###### Example Vulnerability Table
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Vulnerability   | Severity | Description                |
+|:---------------|:--------:|:---------------------------|
+| SQL Injection  | High     | User input not sanitized   |
+| XSS            | Medium   | Reflected script injection |
+| Open Port      | Low      | Unnecessary service open   |
 
-### There's a horizontal rule below this.
+### ---
 
-* * *
+### Secure Coding Practices
 
-### Here is an unordered list:
+*   Input validation
+*   Output encoding
+*   Principle of least privilege
+*   Use of secure libraries
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+### Example: Password Hashing in Python
 
-### And an ordered list:
+```python
+import bcrypt
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+password = b"supersecret"
+hashed = bcrypt.hashpw(password, bcrypt.gensalt())
+print(hashed)
+```
 
-### And a nested list:
+### Secure Coding Checklist
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+1.  Sanitize all user inputs
+2.  Use parameterized queries
+3.  Avoid hardcoded secrets
+4.  Implement proper error handling
+
+### Nested List: Secure Development Lifecycle
+
+- Requirements
+  - Security requirements
+  - Compliance requirements
+    - GDPR
+    - HIPAA
+- Design
+  - Threat modeling
+  - Secure architecture
+- Implementation
+  - Code reviews
+  - Static analysis
+- Testing
+  - Dynamic analysis
+  - Penetration testing
+- Deployment
+  - Secure configuration
+  - Monitoring
 
 ### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![Cybersecurity](https://upload.wikimedia.org/wikipedia/commons/4/4a/Cyber_Security_Malware.png)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Network Defense](https://www.csoonline.com/wp-content/uploads/2023/10/cybersecurity_network_security_shutterstock_1937225139-100876367-orig.jpg)
 
-
-### Definition lists can be used with HTML syntax.
+### Digital Forensics
 
 <dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dt>Definition</dt>
+<dd>Digital forensics is the process of uncovering and interpreting electronic data.</dd>
+<dt>Tools</dt>
+<dd>Autopsy, FTK, EnCase</dd>
+<dt>Process</dt>
+<dd>Acquisition, Analysis, Reporting</dd>
 </dl>
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+# Example: Extracting metadata from a file using exiftool
+exiftool suspicious.jpg
 ```
 
 ```
-The final element.
+# Example: Hashing a file for integrity
+sha256sum important.docx
 ```
+
+### Cybersecurity Certifications
+
+* CompTIA Security+
+* Certified Ethical Hacker (CEH)
+* Offensive Security Certified Professional (OSCP)
+* GIAC Security Essentials (GSEC)
+
+### The final element: Stay curious, keep learning, and always practice ethical hacking!
+
