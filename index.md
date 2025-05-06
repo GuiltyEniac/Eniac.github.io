@@ -296,11 +296,13 @@ print(hashed)
 
 ### Small image
 
-![Cybersecurity](types-of-malware-image.jpg)
+![Network Defense](Technology_Trends.avif)
+
 
 ### Large image
 
-![Network Defense](Technology_Trends.avif)
+![Cybersecurity](types-of-malware-image.jpg)
+
 
 ### Digital Forensics
 
