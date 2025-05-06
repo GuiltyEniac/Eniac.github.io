@@ -29,7 +29,7 @@ Here you'll find a curated collection of scripts, tools, research, and documenta
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Systems
 
 - Python 3.x
 - Bash (for shell scripts)
