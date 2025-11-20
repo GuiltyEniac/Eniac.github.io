@@ -2,4 +2,4 @@ title: Eniac Portfolio
 description: Portfolio Of Knowledge and Code.
 show_downloads: true
 google_analytics:
-theme: pages-themes/modernist@v0.2.0
+theme: theme: jekyll-theme-modernist
