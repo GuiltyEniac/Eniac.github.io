@@ -1,12 +1,13 @@
-# 🛡️ Cybersecurity Projects & Tools
+#  Cybersecurity Projects & Tools
 
 Welcome to my cybersecurity repository!  
-Here you'll find a curated collection of scripts, tools, research, and documentation spanning penetration testing, threat detection, incident response, malware analysis, and secure coding.  
+I’ve built my career on continuously teaching myself, adapting to new technologies, and growing through every challenge I’ve faced. The journey hasn’t always been easy, but the lessons I’ve learned along the way have shaped my commitment to lifelong learning and resilience. Now, as I advance in my field, I feel a strong responsibility to share that knowledge and provide guidance to the next generation of professionals. Whether it’s helping others avoid the mistakes I made, giving career advice, or simply inspiring someone to keep pushing forward, I’m dedicated to giving back and helping future innovators succeed.
+
 **My mission:** To automate, educate, and defend.
 
 ---
 
-## 🚀 Highlights
+##  Highlights
 
 - **Automated Reconnaissance:** Fast subdomain and asset discovery.
 - **Custom Vulnerability Scanners:** Find and report common web and network flaws.
@@ -16,7 +17,7 @@ Here you'll find a curated collection of scripts, tools, research, and documenta
 
 ---
 
-## 📂 Contents
+##  Contents
 
 | Folder                | Description                                 |
 |-----------------------|---------------------------------------------|
@@ -29,7 +30,7 @@ Here you'll find a curated collection of scripts, tools, research, and documenta
 
 ---
 
-## ⚙️ Systems
+##  Systems
 
 - Python 3.x
 - Bash (for shell scripts)
@@ -40,7 +41,7 @@ See each folder's `README.md` for details.
 
 ---
 
-## 🧪 Usage
+##  Usage
 
 Example for a tool in `recon-tools/`:
 
@@ -52,7 +53,7 @@ python3 subenum.py -d example.com
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests and suggestions are welcome!  
 
