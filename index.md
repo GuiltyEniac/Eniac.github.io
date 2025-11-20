@@ -296,12 +296,6 @@ print(hashed)
 
 
 
-![Network Defense](Technology_Trends.avif)
-
-
-![Cybersecurity](types-of-malware-image.jpg)
-
-
 ### Digital Forensics
 
 <dl>
