@@ -1,4 +1,5 @@
 ** Bash Admin Terminal
+## this script in the right use case will check if your admin and open a admin terminal if your not already in one ( HELPFUL as a one click tool ) 
 @echo off
 :: Check for admin permissions
 net session >nul 2>&1
