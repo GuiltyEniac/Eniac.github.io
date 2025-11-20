@@ -7,7 +7,7 @@ Complete Project Sites
 
 # Cybersecurity Skills Portfolio
 
-Welcome to my cybersecurity skills portfolio. Here you'll find demonstrations, code samples, and explanations of a wide range of cyber skills, from ethical hacking to secure coding and digital forensics.
+As an OT and cybersecurity professional, I’ve built my career on continuously teaching myself, adapting to new technologies, and growing through every challenge I’ve faced. The journey hasn’t always been easy, but the lessons I’ve learned along the way have shaped my commitment to lifelong learning and resilience. Now, as I advance in my field, I feel a strong responsibility to share that knowledge and provide guidance to the next generation of professionals. Whether it’s helping others avoid the mistakes I made, giving career advice, or simply inspiring someone to keep pushing forward, I’m dedicated to giving back and helping future innovators succeed.
 
 ## Penetration Testing
 
@@ -58,7 +58,7 @@ Each function plays a critical role in managing cybersecurity risk:
 - **Respond**: Implement appropriate activities to take action regarding detected events
 - **Recover**: Implement appropriate activities to maintain resilience and restore capabilities
 
-### Example: Simple Port Scanner in Python
+### Example: Simple Port Scanner in Python ( Below is a common example of simple port scanner project you can do by modifying the ip range to a target you know and i must stress this you own you can read the results and see the open ports on your target the results will return a 0 if the port is open and a non zero if the port is closed )
 
 ```python
 import socket
@@ -294,12 +294,10 @@ print(hashed)
   - Secure configuration
   - Monitoring
 
-### Small image
+
 
 ![Network Defense](Technology_Trends.avif)
 
-
-### Large image
 
 ![Cybersecurity](types-of-malware-image.jpg)
 
