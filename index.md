@@ -3,7 +3,7 @@ layout: default
 ---
 
 Complete Project Sites 
-[https://freightr.app/].
+                            [https://freightr.app/].
 
 # Cybersecurity Skills Portfolio
 
