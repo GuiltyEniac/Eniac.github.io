@@ -1,10 +1,10 @@
-Cybersecurity Projects & Tools
+###Cybersecurity Projects & Tools
 
-Welcome to my cybersecurity repository!
+####Welcome to my cybersecurity repository!
 
 This collection represents years of self-driven learning, adaptability, and growth. My path hasn’t always been straightforward, but every challenge has strengthened my resilience and shaped my commitment to continuous improvement. As I advance in my cybersecurity career, I feel a responsibility to give back—helping others learn faster, avoid common pitfalls, and stay motivated in an ever-evolving field.
 
-My mission: Automate. Educate. Defend.
+###My mission: Automate. Educate. Defend.
 
 This repo includes tools, scripts, and resources designed to support offensive security, defensive operations, and cybersecurity education.
 
@@ -24,12 +24,12 @@ CTF Tools & Writeups – Scripts and notes from solving real-world CTF challenge
 
 ## Repository Structure
 Folder	Description
-recon-tools/	Automated reconnaissance & OSINT utilities
-vuln-scanners/	Custom vulnerability scanning scripts
-incident-response/	Playbooks & automation for IR workflows
-malware-analysis/	Static/dynamic analysis tools
-defensive-scripts/	Log parsing, SIEM helpers, system hardening
-ctf-scripts/	Writeups and challenge scripts
+recon-tools /	Automated reconnaissance & OSINT utilities
+vuln-scanners /	Custom vulnerability scanning scripts
+incident-response /	Playbooks & automation for IR workflows
+malware-analysis /	Static/dynamic analysis tools
+defensive-scripts /	Log parsing, SIEM helpers, system hardening
+ctf-scripts /	Writeups and challenge scripts
 
 Each subfolder includes its own README.md for more detailed information.
 
@@ -41,7 +41,7 @@ Bash (for shell scripts)
 
 Docker (isolated testing environments)
 
-Common security tools used:
+##Common security tools used:
 nmap, wireshark, tcpdump, yara, curl, jq, etc.
 
 ## Usage Example
